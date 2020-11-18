@@ -63,12 +63,12 @@ body {
 }
 
 .flexbox2 {
-    width: 30%;
+    width: 1024px;
 }
 
 .green2, .blue2, .purple2, .orange2, .red2 {
-    width: 49%;
-    height: 180px;
+    width: 505px;
+    height: 505px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +78,7 @@ body {
 
 .green3, .blue3, .purple3, .orange3, .red3 {
     width: 99%;
-    height: 250px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,5 +91,5 @@ body {
 }
 
 .flexbox3 {
-    width: 20%;
+    width: 600px;
 }
