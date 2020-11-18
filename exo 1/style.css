@@ -59,9 +59,12 @@ body {
 }
 
 .green3, .blue3, .purple3, .orange3, .red3 {
-    margin-top: 5px;
+    margin: 2px;
     width: 24%;
     height: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flexbox3 {
