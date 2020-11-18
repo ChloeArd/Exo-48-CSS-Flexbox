@@ -11,18 +11,25 @@ html {
 body {
     width: 100%;
     font-size: 2.5rem;
-    text-align:center;
+    text-align: center;
 }
 
 .flexbox1, .flexbox2, .flexbox3 {
-    width: 30%;
-    height: 400px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.flexbox1 {
+    width: 50%;
+
 }
 
 .green, .green2, .green3 {
@@ -46,25 +53,43 @@ body {
 }
 
 .green, .blue, .purple, .orange, .red {
-    height: 100%;
-    flex-grow: 1;
+    width: 24%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .flexbox2 {
-    flex-wrap: wrap;
+    width: 30%;
 }
 
 .green2, .blue2, .purple2, .orange2, .red2 {
-    flex-basis: 25%;
+    width: 49%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .green3, .blue3, .purple3, .orange3, .red3 {
+    width: 99%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
     margin-top: 5px;
-    width: 24%;
-    height: 48%;
+}
+
+.red, .red2 {
+    width: 99%;
 }
 
 .flexbox3 {
-    flex-wrap: wrap;
-    justify-content: space-around;
+    width: 20%;
 }
