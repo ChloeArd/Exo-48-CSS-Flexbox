@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.flexbox1, .flexbox2, .flexbox3 {
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.green, .green2, .green3 {
+    background-color: #1CBC9D;
+}
+
+.blue, .blue2, .blue3 {
+    background-color: #3498DB;
+}
+
+.purple, .purple2, .purple3 {
+    background-color: #9B59B6;
+}
+
+.orange, .orange2, .orange3 {
+    background-color: #E67E22;
+}
+
+.red, .red2, .red3 {
+    background-color: #E74C3C;
+}
+
+.green, .blue, .purple, .orange, .red {
+    flex-grow: 1;
+}
+
+.green2, .blue2, .purple2, .orange2, .red2 {
+    flex-basis: 25%;
+}
+
+.green3, .blue3, .purple3, .orange3, .red3 {
+    width: 22%;
+    height: 47%;
+}
+
+.flexbox3 {
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
